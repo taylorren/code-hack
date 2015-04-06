@@ -6,7 +6,7 @@ class codeTraverse
     {
         $dir=__DIR__.'/code';
         $files=array_diff(scandir($dir), ['..', '.']);
-        
+
         return $files;
     }
 }
