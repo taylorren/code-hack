@@ -1,0 +1,15 @@
+{% set active=1 %}
+{% extends 'layout.html.twig' %}
+
+{% block title %}
+    代码列表 | 跟我一起学Hack
+{% endblock %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-md-12">
+            {% for file in files %}
+                <p>{{file}} is talking about: </p>
+            {% endfor %}
+    </div>
+{% endblock %}
