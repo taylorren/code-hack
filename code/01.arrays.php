@@ -1,5 +1,8 @@
 <?hh
-
+/** 关于数组的讨论之一。
+* 本例程讨论的是一般意义上的数组。
+* 详细内容见http://taylorr.gitbooks.io/learn-hack-together/content/03.01%20arrays.html。
+*/
 class Foo
 {
     

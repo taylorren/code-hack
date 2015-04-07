@@ -8,10 +8,6 @@ and open the template in the editor.
     Author     : tr
 */
 
-.green {
-    color: green;
-}
-
-.bg-black {
-    background-color: black;
+.underline {
+    text-decoration-line: underline;
 }

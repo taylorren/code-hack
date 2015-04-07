@@ -1,0 +1,25 @@
+{% set active=2 %}
+{% extends 'layout.html.twig' %}
+
+{% block title %}
+    关于 | 跟我一起学Hack
+{% endblock %}
+
+{% block content %}
+    <div class="jumbotron">
+        <h2>关于这个站点</h2>
+        <p>这是我第一次用<a href="http://hhvm.com/">HHVM</a>配合<a href="http://docs.hhvm.com/manual/en/hacklangref.php">Hack</a>语言来编写Web应用。这也是我第一次用<a href="http://nginx.org/">Nginx</a>来跑一个Web应用，而且在实际的发布中要和<a href="http://httpd.apache.org/">Apache</a>并存在我的虚拟机上。相比之下，用<a href="http://silex.sensiolabs.org/">Silex</a>来编写这个站点就不算什么挑战了。</p>
+        <p>这个站点还有一本<a href="https://www.gitbook.com/book/taylorr/learn-hack-together/details">配套的电子书</a>，发布在GitBook上。我希望大家能在阅读时能两边参阅，一边看书，一边看代码和程序的输出。</p>
+        <p>正如我在电子书的前言中所说：</p>
+        <blockquote>
+            我有一个习惯，那就是每当学习一些新东西的时候，喜欢将我看的教程、我的心得、我编写的代码等汇集起来称为一本小册子。
+            ……
+            人总是要不断学习才能抵抗衰老的到来。我学习新东西（不一定就非得是计算机相关）的目的无非就是如此。
+        </blockquote>
+        <p>欢迎你随时<a href="https://rsywx.net/contact">和我联络</a>。</p>
+        <p>
+            <a class="btn btn-lg btn-success" href="/lib" role="button">Code Library &raquo;</a>
+        </p>
+        
+    </div>
+{% endblock %}
