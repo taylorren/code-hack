@@ -6,7 +6,8 @@
 */
 
 
-class Foo{}
+class Foo{
+}
 class Bar {
   public function getFoo(): Foo {
     return new Foo();
