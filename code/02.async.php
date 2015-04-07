@@ -1,5 +1,11 @@
 <?hh
 
+/** 本例程展示了异步编程的基本特性。
+* 特别是描述了await/async配对使用的实例。
+* 详细内容见http://taylorr.gitbooks.io/learn-hack-together/content/03.02%20async.html。
+*/
+
+
 class Foo{}
 class Bar {
   public function getFoo(): Foo {
@@ -29,4 +35,5 @@ async function gen_bar(int $a): Awaitable<?Bar> {
 }
 
 
-gen_foo(4);
+$res=gen_foo(4);
+var_dump($res);

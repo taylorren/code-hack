@@ -6,9 +6,7 @@
 class Foo
 {
     
-}
-
-;
+};
 
 class HackArrays<T> {
     private array $arr = array();

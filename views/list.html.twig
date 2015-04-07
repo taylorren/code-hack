@@ -1,8 +1,11 @@
 {% set active=4 %}
 {% extends 'layout.html.twig' %}
 
+{% block meta %}
+    <meta name="description" content="跟我一起学Hack语言代码列表，共{{files|length}}个例程。">
+{% endblock %}
 {% block title %}
-    代码列表 | 跟我一起学Hack
+    {{files|length}}个代码 | 跟我一起学Hack
 {% endblock %}
 
 {% block content %}
