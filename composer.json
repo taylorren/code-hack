@@ -2,6 +2,7 @@
     "require": {
         "silex/silex": "~1.2",
         "twig/twig": ">=1.8, <2.0-dev",
-        "symfony/var-dumper": "~2.6"
+        "symfony/var-dumper": "~2.6",
+        "tmd/auto-git-pull": "~1.1"
     }
 }
