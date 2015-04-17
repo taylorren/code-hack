@@ -37,11 +37,11 @@ $app->get('/demo/{file}', function ($file) use ($app)
     $phpfile = $file . '.php';
 
     $fileObj = new codeFile($phpfile);
-
+    
     ob_start("modify");
     require_once 'code/' . $phpfile;
     $res= ob_get_clean();
-    
+
     $fileObj->out=$res;
 
     return $app['twig']->render('demo.html.twig', ['file' => $fileObj]);
