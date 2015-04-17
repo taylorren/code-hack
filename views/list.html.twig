@@ -15,7 +15,7 @@
                 {% for file in files %}
                     <tr>
                         <td>
-                            <p><a href="/demo/{{file.file|trim('.php')}}">{{file.file}}</a>
+                            <p><a href="/demo/{{file.file|replace({'.php':''})}}">{{file.file}}</a>
                         </td>
                         <td>
                             {% for d in file.desc %}

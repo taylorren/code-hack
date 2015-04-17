@@ -5,7 +5,7 @@ require_once __DIR__ . '/lib.php';
 
 
 $app          = new Silex\Application();
-//$app['debug'] = true;
+$app['debug'] = true;
 
 //Twig
 // Register Twig
